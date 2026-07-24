@@ -32,6 +32,7 @@ GitHub repository for A Comprehensive Benchmark of Mamba vs. MambaOut with U-Net
 
 
 ## Project Structure
+```
 jcde_unet/                                  # Submission to JCDE Journal
    ├── data/    
    ├── datasets/                            # link-to-datasets.txt                       
@@ -52,7 +53,7 @@ jcde_unet/                                  # Submission to JCDE Journal
    ├── test.py
    ├── train.py
    └── pathology_analysis.py
-
+```
 
 ### Run Mamba Mambaout Variants for Segmentation
 
