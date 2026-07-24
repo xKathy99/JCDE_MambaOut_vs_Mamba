@@ -60,7 +60,7 @@ jcde_unet/                                  # Submission to JCDE Journal
 ### Installation
 
 ```sh
-   git clone https://github.com/mmlchang/2023_FRGS_HeartDigitalTwin.git
+   git clone https://github.com/xKathy99/JCDE_MambaOut_vs_Mamba.git
    cd jcde_unet
    pip install -r requirements.txt
 ```
