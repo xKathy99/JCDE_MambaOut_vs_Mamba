@@ -1,0 +1,12 @@
+torch>=2.4.0
+torchvision>=0.19.0
+monai>=1.4.0
+nibabel
+timm
+einops
+transformers
+mamba-ssm
+sam-pytorch
+matplotlib
+pandas
+tqdm

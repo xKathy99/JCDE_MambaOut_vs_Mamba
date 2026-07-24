@@ -1,0 +1,35 @@
+Organize your datasets in the following:
+
+Link to dataset, masks and images:
+ACDC: https://drive.google.com/drive/folders/1pDzj9pQHVaik5d7ENIyDp_qQQjmhIDVR?usp=sharing
+M&Ms: https://drive.google.com/drive/folders/1OPsberECZbXcI9GoxbP_mYRIEasu7UvG?usp=sharing
+M&Ms-2: https://drive.google.com/drive/folders/1KYBw-GPv8qbu0cyzfOIuZmiNMnjR99Yx?usp=drive_link
+
+Link to info.cfg files (for use in pathology_analysis.py):
+acdc-testing-info.cfg: https://drive.google.com/file/d/11N54rntj9iYI0U5PfiX74lVx3z7orZAt/view?usp=sharing
+acdc-training-info.cfg: https://drive.google.com/file/d/1UK8ZvJx6rmSyHXT8NAOnskkH7SiqLLWu/view?usp=sharing
+mms-info.cfg: https://drive.google.com/file/d/1YOFwGXpvMKcIK7LwY5eUw2S8o1yO4Mdc/view?usp=sharing
+mms2-info.cfg: https://drive.google.com/file/d/1mpKkjM0HdS88j75xqLqqNqxVzZcAqRtA/view?usp=sharing
+
+CLASS: [0: background, 1: RVC, 2: LV MYO, 3: LVC]
+
+/path/to/datasets/
+├── acdc/
+│   ├── training/
+│   │   ├── images/      #(patientXXX_frame01.nii.gz)...
+│   │   └── masks/       #(patientXXX_frame01_gt.nii.gz)...
+│   └── testing/
+│       ├── images/
+│       └── masks/
+├── mms/
+│   └── Testing/
+│       ├── images/
+│       └── masks/
+├── mm2/
+│   └── Testing/
+│       ├── images/
+│       └── masks/
+├── acdc-testing-info.cfg
+├── acdc-training-info.cfg
+├── mms-info.cfg
+└── mms2-info.cfg

@@ -1,0 +1,17 @@
+Best Weights for
+
+pretrainedmambaout: https://drive.google.com/file/d/1PDrudsag9F37-fJEWLGrROtBn1Ec0exV/view?usp=sharing
+pretrainedmamba: https://drive.google.com/file/d/1usx8PJfO1_lgaS0l3tMN6b-zCTkjke2_/view?usp=sharing
+hybridmamba: https://drive.google.com/file/d/1z-ytiYxWhv2qOBLFbye8J5Lok-q3u4Pd/view?usp=sharing
+hybridmambaout: https://drive.google.com/file/d/1MUFy7cMaZLPs14XCII2GVuuBnl3blbIR/view?usp=sharing
+puremamba: https://drive.google.com/file/d/1fUc6sUNrcssOxu3Ub_y5syMvda8f8nYr/view?usp=sharing
+puremambaout: https://drive.google.com/file/d/1U5fIJ_IRHrmPK6CR-vyTK-H5JboK7uQx/view?usp=sharing
+
+sample directory format
+
+/path/to/checkpoints/
+├── model-1/
+│   └── best-weight/    
+├── model-2/
+│   └── best-weight/    
+... and so on
