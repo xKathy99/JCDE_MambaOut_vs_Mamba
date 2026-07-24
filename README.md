@@ -33,7 +33,7 @@ GitHub repository for A Comprehensive Benchmark of Mamba vs. MambaOut with U-Net
 
 ## Project Structure
 ```
-jcde_unet/                                  # Submission to JCDE Journal
+mamba_mambaout_unet/                                     
    ├── data/    
    ├── datasets/                            # link-to-datasets.txt                       
    ├── checkpoints/                         # llink-to-weights.txt          
@@ -60,8 +60,8 @@ jcde_unet/                                  # Submission to JCDE Journal
 ### Installation
 
 ```sh
-   git clone https://github.com/xKathy99/JCDE_MambaOut_vs_Mamba.git
-   cd jcde_unet
+   git clone https://github.com/xKathy99/MambaOut_vs_Mamba.git
+   cd mamba_mambaout_unet
    pip install -r requirements.txt
 ```
 ### Run Testing
